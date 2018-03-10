@@ -1,0 +1,208 @@
+﻿{
+  "version": "Alpha 1.0",
+  "goals": [
+    {
+      "name": "Exactly 20 Sticks",
+      "difficulty": 0,
+      "common": [
+        {
+          "commonGoal": "STICK",
+          "weight": 5
+        }
+      ],
+      "time": 5.0,
+      "skill": -20.0,
+      "requirements": [
+        [ "RUPEE" ]
+      ]
+    },
+    {
+      "name": "20 Nut Capacity",
+      "difficulty": 1,
+      "common": [
+        {
+          "commonGoal": "NUT",
+          "weight": 5
+        }
+      ],
+      "time": 1.0,
+      "skill": 0.1,
+      "requirements": [
+        [ "EXPLOSIVE", "RUPEE" ],
+        [ "HAMMER", "RUPEE" ]
+      ]
+    },
+    {
+      "name": "Beat Fire Temple",
+      "difficulty": 10,
+      "common": [
+        {
+          "commonGoal": "FIRE",
+          "weight": 5
+        }
+      ],
+      "time": 20.0,
+      "skill": 2.0,
+      "requirements": [
+        [ "EXPLOSIVE", "HAMMER" ]
+      ]
+    },
+    {
+      "name": "Defeat Volvagia",
+      "difficulty": 10,
+      "common": [
+        {
+          "commonGoal": "FIRE",
+          "weight": 5
+        }
+      ],
+      "time": 18.0,
+      "skill": 2.0,
+      "requirements": [
+        [ "EXPLOSIVE", "HAMMER" ]
+      ]
+    },
+    {
+      "name": "Beat Shadow Temple",
+      "difficulty": 10,
+      "common": [
+        {
+          "commonGoal": "SHADOW",
+          "weight": 5
+        }
+      ],
+      "time": 13.0,
+      "skill": 3.0,
+      "requirements": [
+        [ "HARD", "EXPLOSIVE", "HOVER", "SWORD" ],
+        [ "BOMB", "HOVER", "ZL" ],
+        [ "CHU", "ZL" ]
+      ]
+    },
+    {
+      "name": "Beat Water Temple",
+      "difficulty": 10,
+      "common": [
+        {
+          "commonGoal": "WATER",
+          "weight": 5
+        }
+      ],
+      "time": 10.0,
+      "skill": 3.0,
+      "requirements": [
+        [ "EXPLOSIVE", "HOOK", "SWORD", "SWIM" ],
+        [ "EXPLOSIVE", "SWORD", "SWIM" ]
+      ]
+    },
+    {
+      "name": "All 4 Skulltulas in Deku Tree",
+      "difficulty": 9,
+      "common": [
+        {
+          "commonGoal": "DEKU",
+          "weight": 4
+        }
+      ],
+      "time": 10.0,
+      "skill": 3.0,
+      "requirements": [
+        [ "EXPLOSIVE", "STICK", "GS" ],
+        [ "EXPLOSIVE", "FARROW", "ZL", "MAGIC", "HOVER", "GS" ]
+      ]
+    },
+    {
+      "name": "All 5 Skulltulas in Dodongo's Cavern",
+      "difficulty": 9,
+      "common": [
+        {
+          "commonGoal": "DC",
+          "weight": 4
+        }
+      ],
+      "time": 15.0,
+      "skill": 3.0,
+      "requirements": [
+        [ "EXPLOSIVE", "GS" ],
+        [ "BRACELET", "ZL", "GS" ]
+      ]
+    },
+    {
+      "name": "All 4 Skulltulas in Jabu",
+      "difficulty": 9,
+      "common": [
+        {
+          "commonGoal": "JABU",
+          "weight": 5
+        }
+      ],
+      "time": 10.0,
+      "skill": 3.0,
+      "requirements": [
+        [ "EXPLOSIVE", "SWORD", "GS" ],
+        [ "EXPLOSIVE", "STICK", "GS" ],
+        [ "EXPLOSIVE", "HAMMER", "HOVER", "GS" ],
+        [ "EXPLOSIVE", "SWORD", "HOVER", "GS" ],
+        [ "SWIM", "SWORD", "GS" ],
+        [ "SWIM", "STICK", "GS" ]
+      ]
+    },
+    {
+      "name": "Buy the Goron and Zora Tunic",
+      "difficulty": 4,
+      "common": [
+        {
+          "commonGoal": "JABU",
+          "weight": 3
+        },
+        {
+          "commonGoal": "FIRE",
+          "weight": 5
+        },
+        {
+          "commonGoal": "DC",
+          "weight": 2
+        }
+      ],
+      "time": 15.0,
+      "skill": 3.0,
+      "requirements": [
+        [ "EXPLOSIVE", "WALLET", "RUPEE" ]
+      ]
+    },
+    {
+      "name": "Adults Wallet",
+      "difficulty": 2,
+      "common": [
+        {
+          "commonGoal": "WALLET",
+          "weight": 9
+        }
+      ],
+      "time": 5.0,
+      "skill": 3.0,
+      "requirements": [
+        [ "WALLET", "GS" ],
+        [ "WALLET", "RBA" ]
+      ]
+    },
+    {
+      "name": "Giants Wallet",
+      "difficulty": 3,
+      "common": [
+        {
+          "commonGoal": "WALLET",
+          "weight": 9
+        }
+      ],
+      "time": 10.0,
+      "skill": 3.0,
+      "requirements": [
+        [ "WALLET", "GS" ],
+        [ "WALLET", "RBA", "GS" ]
+      ]
+    }
+
+  ]
+}
+

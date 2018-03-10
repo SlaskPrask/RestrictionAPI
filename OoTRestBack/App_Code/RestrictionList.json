@@ -1,0 +1,68 @@
+﻿{
+  "version": "Alpha 1.0",
+  "restrictions": [
+    {
+      "name": "No Sticks",
+      "difficulty": 3,
+      "time": 1.0,
+      "skill": 1.0,
+      "block": "STICK"
+    },
+    {
+      "name": "No Deku Nuts",
+      "difficulty": 3,
+      "time": 2.0,
+      "skill": 1.0,
+      "block": "NUT"
+    },
+    {
+      "name": "No Kokiri Sword",
+      "difficulty": 3,
+      "time": 2.0,
+      "skill": 1.0,
+      "block": "KSWORD"
+    },
+    {
+      "name": "No Swords",
+      "difficulty": 3,
+      "time": 10.0,
+      "skill": 1.0,
+      "block": "SWORD"
+    },
+    {
+      "name": "No Deku Shield",
+      "difficulty": 3,
+      "time": 10.0,
+      "skill": 1.0,
+      "block": "DSHIELD"
+    },
+    {
+      "name": "No Hylian Shield",
+      "difficulty": 3,
+      "time": 10.0,
+      "skill": 1.0,
+      "block": "HSHIELD"
+    },
+    {
+      "name": "No Hover Boots",
+      "difficulty": 3,
+      "time": 10.0,
+      "skill": 1.0,
+      "block": "HOVER"
+    },
+    {
+      "name": "No Rupees",
+      "difficulty": 3,
+      "time": 10.0,
+      "skill": 1.0,
+      "block": "RUPEE"
+    },
+    {
+      "name": "No Swimming",
+      "difficulty": 3,
+      "time": 10.0,
+      "skill": 1.0,
+      "block": "SWIM"
+    }
+  ]
+}
