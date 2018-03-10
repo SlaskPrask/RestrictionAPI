@@ -11,16 +11,17 @@ namespace OoTRestBack.Models
     {
         Random rnd;
 
-        public Result Generate(int seed)
+        public Result Generate(int seed, string vrs)
         {
             Result r = new Result();
             r.seed = seed;
             rnd = new Random(seed);
 
+            vrs = GetVersion(vrs);
 
-            r.restrictions = GetRestrictions(LoadRestrictions());
+            r.restrictions = GetRestrictions(LoadRestrictions(vrs));
 
-            r.goals = GetGoals(LoadGoals(), r.restrictions);
+            r.goals = GetGoals(LoadGoals(vrs), r.restrictions);
 
             r.version = "Alpha 1.0";
             return r;
@@ -73,16 +74,16 @@ namespace OoTRestBack.Models
         }
 
 
-        public ListGoals LoadGoals()
+        public ListGoals LoadGoals(string v)
         {
-            using (StreamReader r = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "\\App_Code\\GoalList.json"))
+            using (StreamReader r = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "\\Version\\" + v + "\\GoalList.json"))
             {
                 return JsonConvert.DeserializeObject<ListGoals>(r.ReadToEnd());
             }
         }
-        public ListRestrictions LoadRestrictions()
+        public ListRestrictions LoadRestrictions(string v)
         {
-            using (StreamReader r = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "\\App_Code\\RestrictionList.json"))
+            using (StreamReader r = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "\\Version\\" + v + "\\RestrictionList.json"))
             {
                 return JsonConvert.DeserializeObject<ListRestrictions>(r.ReadToEnd());
             }
@@ -182,6 +183,19 @@ namespace OoTRestBack.Models
 
             return true;
         }
+
+        string GetVersion(string v)
+        {
+            switch (v)
+            {
+                case "A1.0":
+                    return "Alpha 1.0";
+                default:
+                    return "Alpha 1.0";
+            }
+        }
+
+
     }
 
 

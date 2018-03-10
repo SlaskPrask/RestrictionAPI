@@ -18,6 +18,7 @@ namespace OoTRestBack.Controllers
         {
 
             int seed;
+            string version;
 
             try
             {
@@ -29,7 +30,16 @@ namespace OoTRestBack.Controllers
                 seed = rnd.Next(0, 1000000);
             }
 
-            return new Generator().Generate(seed);
+            try
+            {
+                version = HttpContext.Current.Request.QueryString["version"];
+            }
+            catch (Exception)
+            {
+                version = "A1.0";
+            }
+
+            return new Generator().Generate(seed, version);
         }
 
         // GET: api/restrict/5
