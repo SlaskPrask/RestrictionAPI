@@ -1,0 +1,206 @@
+﻿[
+    {
+      "name": "Escape",
+      "subs": [
+        [ "kSword", "Chest" ],
+        [ "Rupee", "Stick", "LW" ],
+        [ "Rupee", "Nut" ]
+      ]
+    },
+    {
+      "name": "kSword",
+      "subs": [
+        [ "Chest" ],
+        [ "BIT" ],
+        [ "RBAfish", "ZoraMask" ],
+        [ "RBAbug", "ZoraMask" ]
+      ]
+    },
+    {
+      "name": "ZoraMask",
+      "subs": [
+        [ "MOT" ]
+      ]
+    },
+    {
+      "name": "MOT",
+      "subs": [
+        [ "Bunny", "Stones" ]
+      ]
+    },
+    {
+      "name": "Bunny",
+      "subs": [
+        [ "Spooky", "GY" ],
+        [ "spookyASS", "GY", "zLetter", "BIT", "KAK" ]
+      ]
+    },
+    {
+      "name": "Spooky",
+      "subs": [
+        [ "spookyASS", "Trade" ],
+        [ "Skull", "Saria", "HP", "LW", "Instrument" ]
+      ]
+    },
+    {
+      "name": "Skull",
+      "subs": [
+        [ "Keaton" ]
+      ]
+    },
+    {
+      "name": "Keaton",
+      "subs": [
+        [ "zLetter", "ZL", "KAK" ],
+        [ "zLetter", "WARP", "BIT", "KAK" ]
+      ]
+    },
+    {
+      "name": "zLetter",
+      "subs": [
+        [ "Zelda", "Trade" ]
+      ]
+    },
+    {
+      "name": "ZL",
+      "subs": [
+        [ "Zelda" ],
+        [ "RBA" ]
+      ]
+    },
+    {
+      "name": "Zelda",
+      "subs": [
+        [ "Stick", "Explosive" ],
+        [ "kSword", "Explosive" ],
+        [ "DShield", "Explosive" ],
+        [ "Chicken" ],
+        [ "gDoorChild" ]
+      ]
+    },
+    {
+      "name": "Chicken",
+      "subs": [
+        [ "wEgg", "Cucco" ]
+      ]
+    },
+    {
+      "name": "wEgg",
+      "subs": [
+        [ "Trade" ]
+      ]
+    },
+    {
+      "name": "e20Stick",
+      "subs": [
+        [ "Rupee", "Stick", "stickC20", "LW" ],
+        [ "RBAempty", "Stick", "bFairy" ]
+      ]
+    },
+    {
+      "name": "nutC30",
+      "subs": [
+        [ "Rupee", "Hammer", "LW", "Nut" ],
+        [ "Explosive", "Rupee", "LW", "Nut" ]
+      ]
+    },
+    {
+      "name": "bFire",
+      "subs": [
+        [ "volv" ]
+      ]
+    },
+    {
+      "name": "volv",
+      "subs": [
+        [ "Hammer", "FIRE" ]
+      ]
+    },
+    {
+      "name": "bShadow",
+      "subs": [
+        [ "bongo" ]
+      ]
+    },
+    {
+      "name": "bongo",
+      "subs": [
+        [ "SHADOW", "Explosive", "Swing" ],
+        [ "SHADOW", "bkShadow", "hBoots", "Arrow", "Swing" ],
+        [ "SHADOW", "hBoots", "Explosive", "EPG", "LedgeClip", "ISG" ]
+      ]
+    },
+    {
+      "name": "bWater",
+      "subs": [
+        [ "morpha" ]
+      ]
+    },
+    {
+      "name": "morpha",
+      "subs": [
+        [ "WATER", "Explosive", "Swing", "ISG" ],
+        [ "WATER", "bkWater", "Swing", "lShot" ]
+      ]
+    },
+    {
+      "name": "gsDeku",
+      "subs": [
+        [ "Explosive", "ISG", "DEKU", "Stick" ],
+        [ "Explosive", "hBoots", "DEKU", "mFire" ],
+        [ "LedgeCancel", "Bomb", "DEKU", "hBoots", "Shot", "Hammer" ]
+      ]
+    },
+    {
+      "name": "gsDC",
+      "subs": [
+        [ "Strength", "Rang", "DC" ],
+        [ "Explosive", "DC" ],
+        [ "Strength", "Shot", "DC" ]
+      ]
+    },
+    {
+      "name": "gsJabu",
+      "subs": [
+        [ "JABU", "Rang" ],
+        [ "JABU", "Explosives", "ISG" ]
+      ]
+    },
+    {
+      "name": "buyGZTunic",
+      "subs": [
+        [ "zTunic", "gTunic", "gWallet", "Rupee", "gShop", "zShop" ]
+      ]
+    },
+    {
+      "name": "aWallet",
+      "subs": [
+        [ "RBA" ],
+        [ "10gs" ]
+      ]
+    },
+  {
+    "name": "gWallet",
+    "subs": [
+      [ "RBA", "10gs" ],
+      [ "30gs" ]
+    ]
+  },
+  {
+    "name": "Hammer",
+    "subs": [
+      [ "Explosive", "FIRE" ],
+      [ "BA" ]
+    ]
+  },
+  {
+    "name": "Rang",
+    "subs": [
+      [ "JABU", "Explosive" ],
+      [ "JABU", "Sling" ],
+      [ "JABU", "Shot" ],
+      [ "BA" ],
+      ["JABU", "Arrow"]
+    ]
+  }
+]

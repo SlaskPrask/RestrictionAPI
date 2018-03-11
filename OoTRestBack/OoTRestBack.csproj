@@ -81,9 +81,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Code\GoalList.json" />
-    <Content Include="App_Code\RestrictionList.json" />
     <Content Include="Global.asax" />
+    <Content Include="Version\Alpha 1.0\GoalList.json" />
+    <Content Include="Version\Alpha 1.0\RequirementList.json" />
+    <Content Include="Version\Alpha 1.0\RestrictionList.json" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>

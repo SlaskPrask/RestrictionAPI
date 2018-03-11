@@ -12,12 +12,12 @@
       ],
       "time": 5.0,
       "skill": -20.0,
-      "requirement": {
-        "name": "e20Stick"
-      }
+      "requirements": [
+        [ "RUPEE" ]
+      ]
     },
     {
-      "name": "30 Nut Capacity",
+      "name": "20 Nut Capacity",
       "difficulty": 1,
       "common": [
         {
@@ -27,9 +27,10 @@
       ],
       "time": 1.0,
       "skill": 0.1,
-      "requirement": {
-        "name": "nutC30"
-      }
+      "requirements": [
+        [ "EXPLOSIVE", "RUPEE" ],
+        [ "HAMMER", "RUPEE" ]
+      ]
     },
     {
       "name": "Beat Fire Temple",
@@ -42,9 +43,9 @@
       ],
       "time": 20.0,
       "skill": 2.0,
-      "requirement": {
-        "name": "bFire"
-      }
+      "requirements": [
+        [ "EXPLOSIVE", "HAMMER" ]
+      ]
     },
     {
       "name": "Defeat Volvagia",
@@ -57,9 +58,9 @@
       ],
       "time": 18.0,
       "skill": 2.0,
-      "requirement": {
-        "name": "volv"
-      }
+      "requirements": [
+        [ "EXPLOSIVE", "HAMMER" ]
+      ]
     },
     {
       "name": "Beat Shadow Temple",
@@ -72,9 +73,11 @@
       ],
       "time": 13.0,
       "skill": 3.0,
-      "requirement": {
-        "name": "bShadow"
-      }
+      "requirements": [
+        [ "HARD", "EXPLOSIVE", "HOVER", "SWORD" ],
+        [ "BOMB", "HOVER", "ZL" ],
+        [ "CHU", "ZL" ]
+      ]
     },
     {
       "name": "Beat Water Temple",
@@ -87,24 +90,10 @@
       ],
       "time": 10.0,
       "skill": 3.0,
-      "requirement": {
-        "name": "bWater"
-      }
-    },
-    {
-      "name": "Defeat Morpha",
-      "difficulty": 10,
-      "common": [
-        {
-          "commonGoal": "WATER",
-          "weight": 5
-        }
-      ],
-      "time": 10.0,
-      "skill": 3.0,
-      "requirement": {
-        "name": "morpha"
-      }
+      "requirements": [
+        [ "EXPLOSIVE", "HOOK", "SWORD", "SWIM" ],
+        [ "EXPLOSIVE", "SWORD", "SWIM" ]
+      ]
     },
     {
       "name": "All 4 Skulltulas in Deku Tree",
@@ -117,9 +106,10 @@
       ],
       "time": 10.0,
       "skill": 3.0,
-      "requirement": {
-        "name": "gsDeku"
-      }
+      "requirements": [
+        [ "EXPLOSIVE", "STICK", "GS" ],
+        [ "EXPLOSIVE", "FARROW", "ZL", "MAGIC", "HOVER", "GS" ]
+      ]
     },
     {
       "name": "All 5 Skulltulas in Dodongo's Cavern",
@@ -132,9 +122,10 @@
       ],
       "time": 15.0,
       "skill": 3.0,
-      "requirement": {
-        "name": "gsDC"
-      }
+      "requirements": [
+        [ "EXPLOSIVE", "GS" ],
+        [ "BRACELET", "ZL", "GS" ]
+      ]
     },
     {
       "name": "All 4 Skulltulas in Jabu",
@@ -147,9 +138,14 @@
       ],
       "time": 10.0,
       "skill": 3.0,
-      "requirement": {
-        "name": "gsJabu"
-      }
+      "requirements": [
+        [ "EXPLOSIVE", "SWORD", "GS" ],
+        [ "EXPLOSIVE", "STICK", "GS" ],
+        [ "EXPLOSIVE", "HAMMER", "HOVER", "GS" ],
+        [ "EXPLOSIVE", "SWORD", "HOVER", "GS" ],
+        [ "SWIM", "SWORD", "GS" ],
+        [ "SWIM", "STICK", "GS" ]
+      ]
     },
     {
       "name": "Buy the Goron and Zora Tunic",
@@ -170,12 +166,12 @@
       ],
       "time": 15.0,
       "skill": 3.0,
-      "requirement": {
-        "name": "buyGZTunic"
-      }
+      "requirements": [
+        [ "EXPLOSIVE", "WALLET", "RUPEE" ]
+      ]
     },
     {
-      "name": "Adult's Wallet",
+      "name": "Adults Wallet",
       "difficulty": 2,
       "common": [
         {
@@ -185,12 +181,13 @@
       ],
       "time": 5.0,
       "skill": 3.0,
-      "requirement": {
-        "name": "aWallet"
-      }
+      "requirements": [
+        [ "WALLET", "GS" ],
+        [ "WALLET", "RBA" ]
+      ]
     },
     {
-      "name": "Giant's Wallet",
+      "name": "Giants Wallet",
       "difficulty": 3,
       "common": [
         {
@@ -200,9 +197,10 @@
       ],
       "time": 10.0,
       "skill": 3.0,
-      "requirement": {
-        "name": "gWallet"
-      }
+      "requirements": [
+        [ "WALLET", "GS" ],
+        [ "WALLET", "RBA", "GS" ]
+      ]
     }
 
   ]

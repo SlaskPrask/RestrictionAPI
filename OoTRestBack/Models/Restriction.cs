@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
+using System.Collections;
 
 namespace OoTRestBack.Models
 {
@@ -11,7 +12,12 @@ namespace OoTRestBack.Models
         public int difficulty { get; set; }
         public float time { get; set; }
         public float skill { get; set; }
-        public Requirements block;
+        public Requirement block;
+
+        public Requirement GetRequirement()
+        {
+            return block;
+        }
     }
 
 

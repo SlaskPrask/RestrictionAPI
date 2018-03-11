@@ -6,89 +6,63 @@
       "difficulty": 3,
       "time": 1.0,
       "skill": 1.0,
-      "block": 
-      {
-        "name": "Stick"
-      }
+      "block": "STICK"
     },
     {
       "name": "No Deku Nuts",
       "difficulty": 3,
       "time": 2.0,
       "skill": 1.0,
-      "block": 
-      {
-        "name": "Nuts"
-      }
+      "block": "NUT"
     },
     {
       "name": "No Kokiri Sword",
       "difficulty": 3,
       "time": 2.0,
       "skill": 1.0,
-      "block": {
-        "name": "kSword"
-      }
+      "block": "KSWORD"
     },
-      {
-        "name": "No Swords",
-        "difficulty": 3,
-        "time": 10.0,
-        "skill": 1.0,
-        "block": 
-        {
-          "name": "Swords"
-        }
-      },
+    {
+      "name": "No Swords",
+      "difficulty": 3,
+      "time": 10.0,
+      "skill": 1.0,
+      "block": "SWORD"
+    },
     {
       "name": "No Deku Shield",
       "difficulty": 3,
       "time": 10.0,
       "skill": 1.0,
-      "block": 
-      {
-        "name": "dShield"
-      }
+      "block": "DSHIELD"
     },
     {
       "name": "No Hylian Shield",
       "difficulty": 3,
       "time": 10.0,
       "skill": 1.0,
-      "block": 
-      {
-        "name": "hShield"
-      }
+      "block": "HSHIELD"
     },
     {
       "name": "No Hover Boots",
       "difficulty": 3,
       "time": 10.0,
       "skill": 1.0,
-      "block": 
-      {
-        "name": "hBoots"
-      }
+      "block": "HOVER"
     },
     {
       "name": "No Rupees",
       "difficulty": 3,
       "time": 10.0,
       "skill": 1.0,
-      "block": 
-      {
-        "name": "Rupee"
-      }
+      "block": "RUPEE"
     },
     {
       "name": "No Swimming",
       "difficulty": 3,
       "time": 10.0,
       "skill": 1.0,
-      "block": 
-      {
-        "name": "Swim"
-      }
+      "block": "SWIM"
     }
   ]
 }

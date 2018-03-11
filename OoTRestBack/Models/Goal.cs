@@ -12,16 +12,15 @@ namespace OoTRestBack.Models
         public int difficulty { get; set; }
         public float time { get; set; }
         public float skill { get; set; }
-        public List<Requirements[]> requirements { get; set; }
+        public Requirement requirement { get; set; }
 
         public Goal()
         {
-            requirements = new List<Requirements[]>();
         }
 
-        public void addRequirements(params Requirements[] requirements)
+        public void addRequirements(Requirement requirement)
         {
-            this.requirements.Add(requirements);
+            this.requirement = requirement;
         }  
     }
 

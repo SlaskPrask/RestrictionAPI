@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using System.Web;
 using System.IO;
@@ -10,6 +11,7 @@ namespace OoTRestBack.Models
     public class Generator
     {
         Random rnd;
+        Hashtable req;
 
         public Result Generate(int seed, string vrs)
         {
@@ -20,6 +22,7 @@ namespace OoTRestBack.Models
             vrs = GetVersion(vrs);
 
             r.restrictions = GetRestrictions(LoadRestrictions(vrs));
+            req = LoadRequirement(vrs);
 
             r.goals = GetGoals(LoadGoals(vrs), r.restrictions);
 
@@ -88,53 +91,68 @@ namespace OoTRestBack.Models
                 return JsonConvert.DeserializeObject<ListRestrictions>(r.ReadToEnd());
             }
         }
+        public Hashtable LoadRequirement(string v)
+        {
+            using (StreamReader r = new StreamReader(AppDomain.CurrentDomain.BaseDirectory + "\\Version\\" + v + "\\RequirementList.json"))
+            {
+
+                RequirementJSON[] test = JsonConvert.DeserializeObject<RequirementJSON[]>(r.ReadToEnd());
+                Hashtable hash = new Hashtable();
+
+                foreach (RequirementJSON reqdata in test)
+                {
+                    Requirement requirement;
+                    if (hash.ContainsKey(reqdata.name))
+                    {
+                        requirement = (Requirement)hash[reqdata.name];
+                    }
+                    else
+                    {
+                        requirement = new Requirement(reqdata.name);
+                        hash.Add(reqdata.name, requirement);
+                    }
+
+                    foreach (string[] subs in reqdata.subs)
+                    {
+                        List<Requirement> subGroup = new List<Requirement>();
+                        foreach (string sub in subs)
+                        {
+                            Requirement subRequirement;
+                            if (hash.ContainsKey(sub))
+                            {
+                                subRequirement = (Requirement)hash[sub];
+                            }
+                            else
+                            {
+                                subRequirement = new Requirement(sub);
+                                hash.Add(sub, subRequirement);
+                            }
+                            subGroup.Add(subRequirement);
+                        }
+
+                        requirement.requires(subGroup.ToArray());
+                    }
+                }
+
+                foreach (DictionaryEntry de in hash)
+                {
+                        if (!test.Any(rl => rl.name == (string)de.Key))
+                            System.Diagnostics.Debugger.Log(1, "sub", "Subrequirement " + de.Key + " not added" + '\n');        
+                }
+
+                return hash;
+            }
+        }
 
         public bool RestrictionCheck(Restriction r, List<Restriction> rl)
         {
             if (rl.Count < 1)
+            {
+                //if ()
+            }
                 return true;
 
-            switch (r.block)
-            {
-                case Requirements.HARD:
-                    break;
-                case Requirements.EXPLOSIVE:
-                    break;
-                case Requirements.HAMMER:
-                    break;
-                case Requirements.RUPEE:
-                    break;
-                case Requirements.HOVER:
-                    break;
-                case Requirements.SWORD:
-                    if (rl.Any(l => l.block == Requirements.KSWORD || l.block == Requirements.MS) || rl.Any(l => l.block == Requirements.STICK) && rl.Any(l => l.block == Requirements.NUT))
-                        return false;
-                    break;
-                case Requirements.ZL:
-                    break;
-                case Requirements.BOMB:
-                    break;
-                case Requirements.NUT:
-                    if (rl.Any(l => l.block == Requirements.SWORD || l.block == Requirements.KSWORD) && rl.Any(l => l.block == Requirements.STICK))
-                        return false;
-                    break;
-                case Requirements.STICK:
-                    if (rl.Any(l => l.block == Requirements.SWORD || l.block == Requirements.KSWORD) && rl.Any(l => l.block == Requirements.NUT))
-                        return false;
-                    break;
-                case Requirements.KSWORD:
-                    if (rl.Any(l => l.block == Requirements.SWORD) || rl.Any(l => l.block == Requirements.STICK) && rl.Any(l => l.block == Requirements.NUT))
-                        return false;
-                    break;
-                case Requirements.HSHIELD:
-                    break;
-                case Requirements.DSHIELD:
-                    break;
-                default:
-                    break;
-            }
-
-            return true;
+            //return true;
         }
 
         public bool CheckAgainst(Goal g, List<Goal> l, Restriction[] r)
@@ -166,20 +184,13 @@ namespace OoTRestBack.Models
             }
 
             //Check restrictions
-            int block = 0;   
-            for (int i = 0; i < g.requirements.Count; i++)
+            Hashtable cache = new Hashtable();
+            foreach (Restriction randomRestriction in r)
             {
-                for (int j = 0; j < r.Length; j++)
-                {
-                    if (g.requirements[i].Contains(r[j].block))
-                    {
-                        block++;
-                        break;
-                    }
-                }
+               g.requirement.checkRestriction(randomRestriction, cache,null);
             }
-            if (block >= g.requirements.Count)
-                return false;
+
+            //System.Diagnostics.Debugger.Log(1, "Test", ((Requirement)req["Zelda"]).checkRestriction(r[0], cache, null).ToString() + '\n');
 
             return true;
         }
