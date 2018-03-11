@@ -24,6 +24,6 @@ namespace OoTRestBack.Models
     public class ListRestrictions
     {
         public string version { get; set; }
-        public Restriction[] restrictions { get; set; }
+        public List<Restriction> restrictions { get; set; }
     }
 }

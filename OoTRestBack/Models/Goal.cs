@@ -8,6 +8,7 @@ namespace OoTRestBack.Models
     public class Goal
     {
         public string name { get; set; }
+        public string description { get; set; }
         public AreaWeights[] common { get; set; }
         public int difficulty { get; set; }
         public float time { get; set; }
@@ -27,6 +28,6 @@ namespace OoTRestBack.Models
     public class ListGoals
     {
         public string version { get; set; }
-        public Goal[] goals { get; set; }
+        public List<Goal> goals { get; set; }
     }
 }

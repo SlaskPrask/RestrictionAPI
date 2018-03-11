@@ -13,7 +13,7 @@ namespace OoTRestBack.Models
         Random rnd;
         Hashtable req;
 
-        public Result Generate(int seed, string vrs)
+        public Result Generate(int seed, string vrs, bool hard)
         {
             Result r = new Result();
             r.seed = seed;
@@ -21,33 +21,49 @@ namespace OoTRestBack.Models
 
             vrs = GetVersion(vrs);
 
-            r.restrictions = GetRestrictions(LoadRestrictions(vrs));
+
             req = LoadRequirement(vrs);
 
+            r.restrictions = GetRestrictions(LoadRestrictions(vrs), hard);
             r.goals = GetGoals(LoadGoals(vrs), r.restrictions);
 
             r.version = "Alpha 1.0";
             return r;
         }
 
-        public Restriction[] GetRestrictions(ListRestrictions list)
+        public Restriction[] GetRestrictions(ListRestrictions list, bool hard)
         {
             List<Restriction> restrictions = new List<Restriction>();
+
             int nrRest = rnd.Next(2, 5);
+
+            if (!hard)
+            {
+                Restriction h = new Restriction();
+                h.block = new Requirement("HARD");
+                restrictions.Add(h);
+                nrRest += 1;
+            }
 
             do
             {
-                Restriction r = list.restrictions[rnd.Next(list.restrictions.Length)];
-
-                if (restrictions.Contains(r))
-                    continue;
+                Restriction r = list.restrictions[rnd.Next(list.restrictions.Count)];
 
                 if (!RestrictionCheck(r, restrictions))
+                {
+                    list.restrictions.Remove(r);
                     continue;
+                }
 
                 restrictions.Add(r);
-            } while (restrictions.Count < nrRest);
+                list.restrictions.Remove(r);
 
+            } while (restrictions.Count < nrRest && list.restrictions.Count > 0);
+
+            if (!hard)
+            {
+                restrictions.RemoveAt(0);
+            }
             return restrictions.ToArray();
         }
 
@@ -59,18 +75,21 @@ namespace OoTRestBack.Models
 
             do
             {
-                Goal g = list.goals[rnd.Next(list.goals.Length)];
-
-                if (goals.Contains(g))
-                    continue;
+                Goal g = list.goals[rnd.Next(list.goals.Count)];
 
                 if (!CheckAgainst(g, goals, r))
+                {
+                    list.goals.Remove(g);
                     continue;
+                }
+
 
                 time += g.time;
+                g.requirement.subRequirements = null;
                 goals.Add(g);
+                list.goals.Remove(g);
 
-            } while (time < 30);
+            } while (time < 30 && list.goals.Count > 0);
 
 
             return goals.ToArray();
@@ -146,13 +165,27 @@ namespace OoTRestBack.Models
 
         public bool RestrictionCheck(Restriction r, List<Restriction> rl)
         {
-            if (rl.Count < 1)
+            if (rl.Count > 0)
             {
-                //if ()
-            }
-                return true;
+                Hashtable cache = new Hashtable();
+                foreach (Restriction randomRestriction in rl)
+                {
+                    if (!((Requirement)req["Escape"]).checkRestriction(randomRestriction, cache, null))
+                    {
+                        Log("Escape impossible");
+                        return false;
+                    }
 
-            //return true;
+                    Hashtable newCache = new Hashtable();
+                    foreach (DictionaryEntry de in cache)
+                    {
+                        if ((bool)de.Value == false)
+                            newCache.Add(de.Key, false);
+                    }
+                    cache = newCache;
+                }                
+            }
+            return true;
         }
 
         public bool CheckAgainst(Goal g, List<Goal> l, Restriction[] r)
@@ -182,15 +215,30 @@ namespace OoTRestBack.Models
                     }
                 }
             }
-
+            Log(g.name);
             //Check restrictions
+
+            g.requirement = (Requirement)req[g.requirement.name];
+
             Hashtable cache = new Hashtable();
             foreach (Restriction randomRestriction in r)
             {
-               g.requirement.checkRestriction(randomRestriction, cache,null);
-            }
+                Log("Checking " + g.name + " against " + randomRestriction.name);
+                if (!g.requirement.checkRestriction(randomRestriction, cache, null))
+                {
+                    Log("Removed goal " + g.name);
+                    return false;
+                }
 
-            //System.Diagnostics.Debugger.Log(1, "Test", ((Requirement)req["Zelda"]).checkRestriction(r[0], cache, null).ToString() + '\n');
+
+                Hashtable newCache = new Hashtable();
+                foreach (DictionaryEntry de in cache)
+                {
+                    if ((bool)de.Value == false)
+                        newCache.Add(de.Key, false);
+                }
+                cache = newCache;
+            }
 
             return true;
         }
@@ -206,8 +254,12 @@ namespace OoTRestBack.Models
             }
         }
 
-
+        void Log(string message)
+        {
+            System.Diagnostics.Debugger.Log(1, "DebugLog", message + '\n');
+        }
     }
 
+    
 
 }

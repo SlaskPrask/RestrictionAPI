@@ -3,26 +3,27 @@
   "restrictions": [
     {
       "name": "No Sticks",
+      "description": null,
       "difficulty": 3,
       "time": 1.0,
       "skill": 1.0,
-      "block": 
-      {
+      "block": {
         "name": "Stick"
       }
     },
     {
       "name": "No Deku Nuts",
+      "description": null,
       "difficulty": 3,
       "time": 2.0,
       "skill": 1.0,
-      "block": 
-      {
+      "block": {
         "name": "Nuts"
       }
     },
     {
       "name": "No Kokiri Sword",
+      "description": null,
       "difficulty": 3,
       "time": 2.0,
       "skill": 1.0,
@@ -30,64 +31,64 @@
         "name": "kSword"
       }
     },
-      {
-        "name": "No Swords",
-        "difficulty": 3,
-        "time": 10.0,
-        "skill": 1.0,
-        "block": 
-        {
-          "name": "Swords"
-        }
-      },
     {
       "name": "No Deku Shield",
+      "description": null,
       "difficulty": 3,
       "time": 10.0,
       "skill": 1.0,
-      "block": 
-      {
+      "block": {
         "name": "dShield"
       }
     },
     {
       "name": "No Hylian Shield",
+      "description": null,
       "difficulty": 3,
       "time": 10.0,
       "skill": 1.0,
-      "block": 
-      {
+      "block": {
         "name": "hShield"
       }
     },
     {
+      "name": "No Shields",
+      "description": null,
+      "difficulty": 3,
+      "time": 15.0,
+      "skill": 1.0,
+      "block": {
+        "name": "Shields"
+      }
+    },
+    {
       "name": "No Hover Boots",
+      "description": null,
       "difficulty": 3,
       "time": 10.0,
       "skill": 1.0,
-      "block": 
-      {
+      "block": {
         "name": "hBoots"
       }
     },
     {
-      "name": "No Rupees",
+      "name": "No Swimming",
+      "description": "incl. WESS/Quick Draw Water/Using Iron Boots",
       "difficulty": 3,
       "time": 10.0,
       "skill": 1.0,
-      "block": 
-      {
-        "name": "Rupee"
+      "block": {
+        "name": "Swim"
       }
     },
     {
-      "name": "No Swimming",
+      "name": "No Spending Rupees",
+      "description": null,
       "difficulty": 3,
       "time": 10.0,
       "skill": 1.0,
-      "block": 
-      {
-        "name": "Swim"
+      "block": {
+        "name": "Rupee"
       }
     }
   ]

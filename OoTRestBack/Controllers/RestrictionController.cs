@@ -20,6 +20,7 @@ namespace OoTRestBack.Controllers
 
             int seed;
             string version;
+            bool hard;
 
             try
             {
@@ -40,7 +41,16 @@ namespace OoTRestBack.Controllers
                 version = "A1.0";
             }
 
-            return new Generator().Generate(seed, version);
+            try
+            {
+                hard = Boolean.Parse(HttpContext.Current.Request.QueryString["allowhard"]);
+            }
+            catch (Exception)
+            {
+                hard = false;
+            }
+
+            return new Generator().Generate(seed, version, hard);
         }
 
         // GET: api/restrict/5

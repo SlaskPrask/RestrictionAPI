@@ -1,184 +1,184 @@
 ﻿[
-    {
-      "name": "Escape",
-      "subs": [
-        [ "kSword", "Chest" ],
-        [ "Rupee", "Stick", "LW" ],
-        [ "Rupee", "Nut" ]
-      ]
-    },
-    {
-      "name": "kSword",
-      "subs": [
-        [ "Chest" ],
-        [ "BIT" ],
-        [ "RBAfish", "ZoraMask" ],
-        [ "RBAbug", "ZoraMask" ]
-      ]
-    },
-    {
-      "name": "ZoraMask",
-      "subs": [
-        [ "MOT" ]
-      ]
-    },
-    {
-      "name": "MOT",
-      "subs": [
-        [ "Bunny", "Stones" ]
-      ]
-    },
-    {
-      "name": "Bunny",
-      "subs": [
-        [ "Spooky", "GY" ],
-        [ "spookyASS", "GY", "zLetter", "BIT", "KAK" ]
-      ]
-    },
-    {
-      "name": "Spooky",
-      "subs": [
-        [ "spookyASS", "Trade" ],
-        [ "Skull", "Saria", "HP", "LW", "Instrument" ]
-      ]
-    },
-    {
-      "name": "Skull",
-      "subs": [
-        [ "Keaton" ]
-      ]
-    },
-    {
-      "name": "Keaton",
-      "subs": [
-        [ "zLetter", "ZL", "KAK" ],
-        [ "zLetter", "WARP", "BIT", "KAK" ]
-      ]
-    },
-    {
-      "name": "zLetter",
-      "subs": [
-        [ "Zelda", "Trade" ]
-      ]
-    },
-    {
-      "name": "ZL",
-      "subs": [
-        [ "Zelda" ],
-        [ "RBA" ]
-      ]
-    },
-    {
-      "name": "Zelda",
-      "subs": [
-        [ "Stick", "Explosive" ],
-        [ "kSword", "Explosive" ],
-        [ "DShield", "Explosive" ],
-        [ "Chicken" ],
-        [ "gDoorChild" ]
-      ]
-    },
-    {
-      "name": "Chicken",
-      "subs": [
-        [ "wEgg", "Cucco" ]
-      ]
-    },
-    {
-      "name": "wEgg",
-      "subs": [
-        [ "Trade" ]
-      ]
-    },
-    {
-      "name": "e20Stick",
-      "subs": [
-        [ "Rupee", "Stick", "stickC20", "LW" ],
-        [ "RBAempty", "Stick", "bFairy" ]
-      ]
-    },
-    {
-      "name": "nutC30",
-      "subs": [
-        [ "Rupee", "Hammer", "LW", "Nut" ],
-        [ "Explosive", "Rupee", "LW", "Nut" ]
-      ]
-    },
-    {
-      "name": "bFire",
-      "subs": [
-        [ "volv" ]
-      ]
-    },
-    {
-      "name": "volv",
-      "subs": [
-        [ "Hammer", "FIRE" ]
-      ]
-    },
-    {
-      "name": "bShadow",
-      "subs": [
-        [ "bongo" ]
-      ]
-    },
-    {
-      "name": "bongo",
-      "subs": [
-        [ "SHADOW", "Explosive", "Swing" ],
-        [ "SHADOW", "bkShadow", "hBoots", "Arrow", "Swing" ],
-        [ "SHADOW", "hBoots", "Explosive", "EPG", "LedgeClip", "ISG" ]
-      ]
-    },
-    {
-      "name": "bWater",
-      "subs": [
-        [ "morpha" ]
-      ]
-    },
-    {
-      "name": "morpha",
-      "subs": [
-        [ "WATER", "Explosive", "Swing", "ISG" ],
-        [ "WATER", "bkWater", "Swing", "lShot" ]
-      ]
-    },
-    {
-      "name": "gsDeku",
-      "subs": [
-        [ "Explosive", "ISG", "DEKU", "Stick" ],
-        [ "Explosive", "hBoots", "DEKU", "mFire" ],
-        [ "LedgeCancel", "Bomb", "DEKU", "hBoots", "Shot", "Hammer" ]
-      ]
-    },
-    {
-      "name": "gsDC",
-      "subs": [
-        [ "Strength", "Rang", "DC" ],
-        [ "Explosive", "DC" ],
-        [ "Strength", "Shot", "DC" ]
-      ]
-    },
-    {
-      "name": "gsJabu",
-      "subs": [
-        [ "JABU", "Rang" ],
-        [ "JABU", "Explosives", "ISG" ]
-      ]
-    },
-    {
-      "name": "buyGZTunic",
-      "subs": [
-        [ "zTunic", "gTunic", "gWallet", "Rupee", "gShop", "zShop" ]
-      ]
-    },
-    {
-      "name": "aWallet",
-      "subs": [
-        [ "RBA" ],
-        [ "10gs" ]
-      ]
-    },
+  {
+    "name": "Escape",
+    "subs": [
+      [ "kSword", "Chest" ],
+      [ "Rupee", "Stick", "LW", "Swim" ],
+      [ "Rupee", "Nut" ]
+    ]
+  },
+  {
+    "name": "kSword",
+    "subs": [
+      [ "Chest" ],
+      [ "BIT" ],
+      [ "RBAfish", "ZoraMask" ],
+      [ "RBAbug", "ZoraMask" ]
+    ]
+  },
+  {
+    "name": "ZoraMask",
+    "subs": [
+      [ "MOT" ]
+    ]
+  },
+  {
+    "name": "MOT",
+    "subs": [
+      [ "Bunny", "Stones" ]
+    ]
+  },
+  {
+    "name": "Bunny",
+    "subs": [
+      [ "Spooky", "GY" ],
+      [ "spookyASS", "GY", "zLetter", "BIT", "KAK" ]
+    ]
+  },
+  {
+    "name": "Spooky",
+    "subs": [
+      [ "spookyASS", "Trade" ],
+      [ "Skull", "Saria", "HP", "LW", "Instrument" ]
+    ]
+  },
+  {
+    "name": "Skull",
+    "subs": [
+      [ "Keaton" ]
+    ]
+  },
+  {
+    "name": "Keaton",
+    "subs": [
+      [ "zLetter", "ZL", "KAK" ],
+      [ "zLetter", "WARPsong", "BIT", "KAK" ]
+    ]
+  },
+  {
+    "name": "zLetter",
+    "subs": [
+      [ "Zelda", "Trade" ]
+    ]
+  },
+  {
+    "name": "ZL",
+    "subs": [
+      [ "Zelda" ],
+      [ "RBA" ]
+    ]
+  },
+  {
+    "name": "Zelda",
+    "subs": [
+      [ "Stick", "Explosive" ],
+      [ "kSword", "Explosive" ],
+      [ "dShield", "Explosive" ],
+      [ "Chicken" ],
+      [ "gDoorChild" ]
+    ]
+  },
+  {
+    "name": "Chicken",
+    "subs": [
+      [ "wEgg", "Cucco" ]
+    ]
+  },
+  {
+    "name": "wEgg",
+    "subs": [
+      [ "Trade" ]
+    ]
+  },
+  {
+    "name": "e20Stick",
+    "subs": [
+      [ "Rupee", "Stick", "stickC20", "LW" ],
+      [ "RBAempty", "Stick", "Fairy" ]
+    ]
+  },
+  {
+    "name": "nutC30",
+    "subs": [
+      [ "Rupee", "Hammer", "LW", "Nut" ],
+      [ "Explosive", "Rupee", "LW", "Nut" ]
+    ]
+  },
+  {
+    "name": "bFire",
+    "subs": [
+      [ "volv" ]
+    ]
+  },
+  {
+    "name": "volv",
+    "subs": [
+      [ "Hammer", "FIRE" ]
+    ]
+  },
+  {
+    "name": "bShadow",
+    "subs": [
+      [ "bongo" ]
+    ]
+  },
+  {
+    "name": "bongo",
+    "subs": [
+      [ "SHADOW", "Explosive", "aSwing" ],
+      [ "SHADOW", "bkShadow", "hBoots", "Arrow", "aSwing" ],
+      [ "SHADOW", "hBoots", "Explosive", "EPG", "LedgeClip", "ISG" ]
+    ]
+  },
+  {
+    "name": "bWater",
+    "subs": [
+      [ "morpha" ]
+    ]
+  },
+  {
+    "name": "morpha",
+    "subs": [
+      [ "WATER", "Explosive", "aSwing", "ISG", "Adult" ],
+      [ "WATER", "bkWater", "aSwing", "lShot" ]
+    ]
+  },
+  {
+    "name": "gsDeku",
+    "subs": [
+      [ "Explosive", "ISG", "DEKU", "Stick" ],
+      [ "Explosive", "hBoots", "DEKU", "mFire" ],
+      [ "LedgeCancel", "Bomb", "DEKU", "hBoots", "Shot", "Hammer" ]
+    ]
+  },
+  {
+    "name": "gsDC",
+    "subs": [
+      [ "Strength", "Rang", "DC" ],
+      [ "Explosive", "DC" ],
+      [ "Strength", "Shot", "DC", "Adult" ]
+    ]
+  },
+  {
+    "name": "gsJabu",
+    "subs": [
+      [ "JABU", "Rang" ],
+      [ "JABU", "Explosive", "ISG" ]
+    ]
+  },
+  {
+    "name": "buyGZTunic",
+    "subs": [
+      [ "zTunic", "gTunic", "gWallet", "Rupee", "agShop", "azShop", "Adult" ]
+    ]
+  },
+  {
+    "name": "aWallet",
+    "subs": [
+      [ "RBA" ],
+      [ "10gs" ]
+    ]
+  },
   {
     "name": "gWallet",
     "subs": [
@@ -187,10 +187,24 @@
     ]
   },
   {
+    "name": "Wallet",
+    "subs": [
+      [ "aWallet" ],
+      [ "gWallet" ]
+    ]
+  },
+  {
     "name": "Hammer",
     "subs": [
-      [ "Explosive", "FIRE" ],
-      [ "BA" ]
+      [ "BA" ],
+      [ "rHammer" ]
+    ]
+  },
+  {
+    "name": "rHammer",
+    "subs": [
+      [ "Explosive", "FIRE", "Adult", "Chest" ],
+      [ "Explosive", "FIRE", "HARD", "ISG", "Chest" ]
     ]
   },
   {
@@ -200,7 +214,1154 @@
       [ "JABU", "Sling" ],
       [ "JABU", "Shot" ],
       [ "BA" ],
-      ["JABU", "Arrow"]
+      [ "JABU", "Arrow", "Adult" ]
     ]
+  },
+  {
+    "name": "Adult",
+    "subs": [
+      [ "MS", "TOT", "lightMedallion" ]
+    ]
+  },
+  {
+    "name": "agShop",
+    "subs": [
+      [ "GC", "Adult", "Explosive", "hBoots" ],
+      [ "GC", "Adult", "Explosive", "gTunic" ]
+    ]
+  },
+  {
+    "name": "Explosive",
+    "subs": [
+      [ "Chu" ],
+      [ "Bomb" ]
+    ]
+  },
+  {
+    "name": "bkWater",
+    "subs": [
+      [ "LedgeClip", "WATER", "1waterKey", "Chest" ],
+      [ "RBAfish", "iArrow" ],
+      [ "RBAbug", "iArrow" ]
+    ]
+  },
+  {
+    "name": "gDoorChild",
+    "subs": [
+      [ "OI", "DEKU", "bDeku", "WW" ]
+    ]
+  },
+  {
+    "name": "RBAfish",
+    "subs": [
+      [ "Fish", "bottleB" ]
+    ]
+  },
+  {
+    "name": "stickC20",
+    "subs": [
+      [ "Stick", "Rupee" ],
+      [ "pEgg", "RBAempty" ]
+    ]
+  },
+  {
+    "name": "Stones",
+    "subs": [
+      [ "oddPot", "RBAblueFire" ],
+      [ "oddPot", "RBAbug" ],
+      [ "oddPot", "RBAfish", "bDeku" ],
+      [ "oddPot", "RBAfairy", "bDeku" ],
+      [ "oddPot", "RBAempty", "bDC" ]
+    ]
+  },
+  {
+    "name": "Shot",
+    "subs": [
+      [ "lShot" ],
+      [ "hShot" ]
+    ]
+  },
+  {
+    "name": "BIT",
+    "subs": [
+      [ "bForest", "Minuet" ]
+    ]
+  },
+  {
+    "name": "Bomb",
+    "subs": [
+      [ "BombBag20", "Chest" ],
+      [ "BombBag30" ],
+      [ "BombBag40" ],
+      [ "bMilk", "RBA", "Adult" ]
+    ]
+  },
+  {
+    "name": "dShield",
+    "subs": [
+      [ "Rupee" ],
+      [ "Chest", "BOTW", "1botwKey" ],
+      [ "Chest", "DC", "Explosive" ],
+      [ "Chest", "DC", "Strength", "Rupee" ],
+      [ "SPIRIT", "Adult", "hBoots", "Bomb", "Chest" ],
+      [ "SPIRIT", "Adult", "hBoots", "Shot", "Chest" ],
+      [ "SPIRIT", "Explosive", "Chest" ],
+      [ "SPIRIT", "Sling", "Stick", "Chest" ]
+    ]
+  },
+  {
+    "name": "WATER",
+    "subs": [
+      [ "Swim", "LedgeClip" ],
+      [ "Swim" ]
+    ]
+  },
+  {
+    "name": "Strength",
+    "subs": [
+      [ "gBracelet" ],
+      [ "sGauntlet" ],
+      [ "gGauntlet" ],
+      [ "blkGauntlet" ],
+      [ "brzGauntlet" ],
+      [ "blueGauntlet" ],
+      [ "grnGauntlet" ]
+    ]
+  },
+  {
+    "name": "hBoots",
+    "subs": [
+      [ "SHADOW", "Chest", "aSwing", "Adult", "Shot" ],
+      [ "SHADOW", "Chest", "aSwing", "Adult", "Explosive", "aShield" ],
+      [ "SHADOW", "Chest", "Explosive", "dShield", "cSwing" ]
+    ]
+  },
+  {
+    "name": "aSwing",
+    "subs": [
+      [ "Hammer", "Adult" ],
+      [ "MS", "Adult" ],
+      [ "BGS", "Adult" ],
+      [ "knife", "Adult" ]
+    ]
+  },
+  {
+    "name": "cSwing",
+    "subs": [
+      [ "Stick" ],
+      [ "MS", "gDoorChild" ],
+      [ "kSword" ]
+    ]
+  },
+  {
+    "name": "aShield",
+    "subs": [
+      [ "hShield", "Adult" ],
+      [ "mShield", "Adult" ]
+    ]
+  },
+  {
+    "name": "spookyASS",
+    "subs": [
+      [ "Adult", "glitchQuiver", "bowSlot", "Epona", "GerudoCard" ]
+    ]
+  },
+  {
+    "name": "SHADOW",
+    "subs": [
+      [ "Shot", "Adult" ],
+      [ "Explosive", "ISG" ],
+      [ "Nocturne", "LedgeClip" ],
+      [ "Nocturne", "Din" ]
+    ]
+  },
+  {
+    "name": "lShot",
+    "subs": [
+      [ "rlShot" ],
+      [ "BA" ]
+    ]
+  },
+  {
+    "name": "rlShot",
+    "subs": [
+      [ "WATER", "2waterKey", "Shot" ]
+    ]
+  },
+  {
+    "name": "Saria",
+    "subs": [
+      [ "zLetter", "SFM" ],
+      [ "FWWW", "bDeku", "SFM" ],
+      [ "FWWW", "bDC", "SFM" ]
+    ]
+  },
+  {
+    "name": "mFire",
+    "subs": [
+      [ "fArrow", "Magic" ],
+      [ "Din" ]
+    ]
+  },
+  {
+    "name": "Instrument",
+    "subs": [
+      [ "fOcarina" ],
+      [ "oOcarina" ],
+      [ "OI" ]
+    ]
+  },
+  {
+    "name": "BA",
+    "subs": [
+      [ "BIT", "RBA" ],
+      [ "LACS", "RBA" ]
+    ]
+  },
+  {
+    "name": "gTunic",
+    "subs": [
+      [ "GC", "Explosive", "Adult" ],
+      [ "GC", "agShop" ]
+    ]
+  },
+  {
+    "name": "Arrow",
+    "subs": [
+      [ "Quiver", "Bow", "Adult" ],
+      [ "Quiver", "fArrow", "Adult" ],
+      [ "Quiver", "iArrow", "Adult" ],
+      [ "Quiver", "lArrow", "Adult" ],
+      [ "rLetter", "fArrow", "RBA" ],
+      [ "rLetter", "iArrow", "RBA" ],
+      [ "rLetter", "lArrow", "RBA" ]
+    ]
+  },
+  {
+    "name": "RBA",
+    "subs": [
+      [ "bottleB" ]
+    ]
+  },
+  {
+    "name": "EPG",
+    "subs": [
+      [ "aSwing", "hBoots" ],
+      [ "Explosive" ]
+    ]
+  },
+  {
+    "name": "azShop",
+    "subs": [
+      [ "BlueFire", "ZD" ],
+      [ "Explosive", "ZD" ]
+    ]
+  },
+  {
+    "name": "ISG",
+    "subs": [
+      [ "cSwing", "dShield" ],
+      [ "aSwing", "aShield" ]
+    ]
+  },
+  {
+    "name": "bkShadow",
+    "subs": [
+      [ "Chest", "ZL", "SHADOW", "aSwing" ],
+      [ "Chest", "ZL", "SHADOW", "mFire" ]
+    ]
+  },
+  {
+    "name": "DEKU",
+    "subs": [
+      [ "dShield", "kSword" ],
+      [ "zLetter" ],
+      [ "hBoots", "Explosive" ]
+    ]
+  },
+  {
+    "name": "zTunic",
+    "subs": [
+      [ "ZD", "Adult" ],
+      [ "azShop" ]
+    ]
+  },
+  {
+    "name": "JABU",
+    "subs": [
+      [ "ZF", "Explosive", "cSwing" ],
+      [ "ZF", "rLetter", "cSwing" ],
+      [ "ZF", "Explosive", "Fish" ],
+      [ "ZF", "rLetter", "Fish" ],
+      [ "ZF", "hBoots", "Explosive", "Adult", "Swim" ]
+    ]
+  },
+  {
+    "name": "RBAempty",
+    "subs": [
+      [ "bottleB" ]
+    ]
+  },
+  {
+    "name": "FIRE",
+    "subs": [
+      [ "Explosive", "Adult", "DMC" ],
+      [ "Bolero", "Adult", "DMC" ],
+      [ "Explosive", "HARD", "DMC" ],
+      [ "Bolero", "HARD", "DMC" ]
+    ]
+  },
+  {
+    "name": "Sling",
+    "subs": [
+      [ "DEKU", "dShield" ],
+      [ "DEKU", "Hammer", "Adult" ],
+      [ "DEKU", "aShield", "Adult" ]
+    ]
+  },
+  {
+    "name": "RBAbug",
+    "subs": [
+      [ "Bug", "bottleB" ]
+    ]
+  },
+  {
+    "name": "blkGauntlet",
+    "subs": [
+      [ "RBAfish", "pCucco" ],
+      [ "RBAbug", "pCucco" ]
+    ]
+  },
+  {
+    "name": "bMilk",
+    "subs": [
+      [ "Chicken", "Rupee" ],
+      [ "EponasSong", "Bottle" ]
+    ]
+  },
+  {
+    "name": "Bolero",
+    "subs": [
+      [ "WARPsong", "Adult", "DMC", "Explosive" ],
+      [ "WARPsong", "Adult", "DMC", "hBoots" ],
+      [ "WARPsong", "Adult", "DMC", "GC", "Shot", "Strength" ]
+    ]
+  },
+  {
+    "name": "OI",
+    "subs": [
+      [ "Fish", "Bottle" ],
+      [ "Bug", "Bottle" ]
+    ]
+  },
+  {
+    "name": "LACS",
+    "subs": [
+      [ "spiritMedallion", "shadowMedallion", "Adult" ]
+    ]
+  },
+  {
+    "name": "ZF",
+    "subs": [
+      [ "rLetter" ],
+      [ "Explosive", "dShield", "Swim" ],
+      [ "Explosive", "aShield", "Swim" ]
+    ]
+  },
+  {
+    "name": "BombBag20",
+    "subs": [
+      [ "DC", "Strength" ],
+      [ "DC", "Chu", "dShield" ],
+      [ "DC", "Chu", "Adult" ]
+    ]
+  },
+  {
+    "name": "RBAfairy",
+    "subs": [
+      [ "Fairy", "bottleB" ]
+    ]
+  },
+  {
+    "name": "blueGauntlet",
+    "subs": [
+      [ "sGauntlet", "pCucco", "RBAfish", "Adult" ],
+      [ "sGauntlet", "pCucco", "RBAbug", "Adult" ]
+    ]
+  },
+  {
+    "name": "FWWW",
+    "subs": [
+      [ "BA", "WW", "Magic" ]
+    ]
+  },
+  {
+    "name": "BombBag40",
+    "subs": [
+      [ "Cojiro", "RBAfairy", "Adult" ],
+      [ "Cojiro", "RBAfish", "Adult" ],
+      [ "Cojiro", "RBAblueFire", "Adult" ],
+      [ "Cojiro", "RBAbug", "Adult" ],
+      [ "bDC", "BombBag30", "Bowling" ]
+    ]
+  },
+  {
+    "name": "bowSlot",
+    "subs": [
+      [ "rBow" ],
+      [ "lArrow", "Bottle", "Catchable+" ],
+      [ "fArrow", "Bottle", "Catchable+" ],
+      [ "iArrow", "Bottle", "Catchable+" ]
+    ]
+  },
+  {
+    "name": "glitchQuiver",
+    "subs": [
+      [ "RBAempty", "Cojiro", "Adult" ],
+      [ "RBAblueFire", "Cojiro", "Adult" ],
+      [ "RBAbug", "Cojiro", "Adult" ],
+      [ "RBAfairy", "Cojiro", "Adult" ],
+      [ "Adult" ]
+    ]
+  },
+  {
+    "name": "DMC",
+    "subs": [
+      [ "DMT" ],
+      [ "GC" ]
+    ]
+  },
+  {
+    "name": "GerudoCard",
+    "subs": [
+      [ "aSwing", "GF" ],
+      [ "cSwing", "GF", "Explosive" ]
+    ]
+  },
+  {
+    "name": "Bow",
+    "subs": [
+      [ "rBow" ]
+    ]
+  },
+  {
+    "name": "rBow",
+    "subs": [
+      [ "aSwing", "Strength", "Chest", "2forestKey" ],
+      [ "aSwing", "hBoots", "Explosive", "Chest", "2forestKey" ]
+    ]
+  },
+  {
+    "name": "Fish",
+    "subs": [
+      [ "Bottle" ]
+    ]
+  },
+  {
+    "name": "Din",
+    "subs": [
+      [ "Magic", "Explosive" ]
+    ]
+  },
+  {
+    "name": "knife",
+    "subs": [
+      [ "Wallet", "Explosive" ],
+      [ "Wallet", "Strength" ],
+      [ "Wallet", "Hammer" ]
+    ]
+  },
+  {
+    "name": "Chu",
+    "subs": [
+      [ "Chest", "Swim", "BOTW" ],
+      [ "Chest", "GANON" ],
+      [ "WASTELAND", "Rupee" ],
+      [ "SPIRIT", "Stick", "Sling" ]
+    ]
+  },
+  {
+    "name": "gGauntlet",
+    "subs": [
+      [ "gDoorChild", "Chu", "HARD", "GANON" ],
+      [ "Chu", "HARD", "GANON" ],
+      [ "Shot", "hBoots", "Explosive", "GANON", "Adult" ]
+    ]
+  },
+  {
+    "name": "lArrow",
+    "subs": [
+      [ "LACS" ]
+    ]
+  },
+  {
+    "name": "bDeku",
+    "subs": [
+      [ "gohma" ]
+    ]
+  },
+  {
+    "name": "SPIRIT",
+    "subs": [
+      [ "COLOSSUSS" ]
+    ]
+  },
+  {
+    "name": "fArrow",
+    "subs": [
+      [ "lArrow", "Quiver" ],
+      [ "iArrow", "Quiver" ],
+      [ "Bow", "Quiver" ]
+    ]
+  },
+  {
+    "name": "BGS",
+    "subs": [
+      [ "Claim", "DMT" ]
+    ]
+  },
+  {
+    "name": "GC",
+    "subs": [
+      [ "DMT" ],
+      [ "DMC" ],
+      [ "LW" ]
+    ]
+  },
+  {
+    "name": "DC",
+    "subs": [
+      [ "DMT" ],
+      [ "WW", "bDeku", "Explosive" ]
+    ]
+  },
+  {
+    "name": "hShot",
+    "subs": [
+      [ "GY", "Adult" ]
+    ]
+  },
+  {
+    "name": "Fairy",
+    "subs": [
+      [ "Bottle" ]
+    ]
+  },
+  {
+    "name": "Epona",
+    "subs": [
+      [ "Explosive", "ISG", "Adult" ],
+      [ "Rupee", "EponasSong" ]
+    ]
+  },
+  {
+    "name": "BombBag30",
+    "subs": [
+      [ "RBAempty", "Cojiro" ],
+      [ "bDC", "BombBag20", "Bowling" ],
+      [ "BombBag20", "Explosive", "GC" ]
+    ]
+  },
+  {
+    "name": "Nocturne",
+    "subs": [
+      [ "waterMedallion", "forestMedallion", "fireMedallion" ],
+      [ "RBAempty", "Poacher", "Adult" ],
+      [ "RBAblueFire", "Poacher", "Adult" ],
+      [ "RBAbug", "Poacher", "Adult" ]
+    ]
+  },
+  {
+    "name": "sGauntlet",
+    "subs": [
+      [ "COLOSSUSS", "ISG", "Chu", "hBoots" ],
+      [ "SPIRIT", "2spiritKey", "hBoots", "Shot", "Adult" ],
+      [ "SPIRIT", "2spiritKey", "Explosive", "cSwing" ],
+      [ "SPIRIT", "2spiritKey", "Sling", "Stick" ]
+    ]
+  },
+  {
+    "name": "SFM",
+    "subs": [
+      [ "LW" ],
+      [ "WW", "bFire" ]
+    ]
+  },
+  {
+    "name": "hShield",
+    "subs": [
+      [ "Rupee" ],
+      [ "Chest", "BOTW" ],
+      [ "Chest", "GY" ]
+    ]
+  },
+  {
+    "name": "oOcarina",
+    "subs": [
+      [ "Stones" ]
+    ]
+  },
+  {
+    "name": "bottleB",
+    "subs": [
+      [ "Swim", "aSword", "Catchable" ],
+      [ "Swim", "kSword", "Catchable" ],
+      [ "Explosive", "kSword", "Catchable+" ],
+      [ "Explosive", "MS", "Catchable+" ],
+      [ "Rupee", "MS", "Catchable+" ]
+    ]
+  },
+  {
+    "name": "Bug",
+    "subs": [
+      [ "Bottle" ]
+    ]
+  },
+  {
+    "name": "bDC",
+    "subs": [
+      [ "kd" ]
+    ]
+  },
+  {
+    "name": "mShield",
+    "subs": [
+      [ "COLOSSUSS", "ISG", "Chu", "hBoots" ],
+      [ "SPIRIT", "2spiritKey", "hBoots", "Shot", "Adult" ],
+      [ "SPIRIT", "2spiritKey", "Explosive", "cSwing" ],
+      [ "SPIRIT", "2spiritKey", "Sling", "Stick" ]
+    ]
+  },
+  {
+    "name": "1botwKey",
+    "subs": [
+      [ "BOTW", "Chest" ],
+      [ "BOTW", "Stick" ],
+      [ "BOTW", "Rang" ]
+    ]
+  },
+  {
+    "name": "2waterKey",
+    "subs": [
+      [ "LedgeClip", "WATER", "Swim", "hBoots" ]
+    ]
+  },
+  {
+    "name": "rLetter",
+    "subs": [
+      [ "LH", "Swim", "gScale" ],
+      [ "LH", "Swim", "sScale" ]
+    ]
+  },
+  {
+    "name": "Bottle",
+    "subs": [
+      [ "CollectCucco" ],
+      [ "Rupee", "Chicken" ],
+      [ "rLetter" ]
+    ]
+  },
+  {
+    "name": "iArrow",
+    "subs": [
+      [ "Adult", "Shot", "Explosive", "GF" ],
+      [ "Explosive", "GF" ]
+    ]
+  },
+  {
+    "name": "oddPot",
+    "subs": [
+      [ "oddMush" ]
+    ]
+  },
+  {
+    "name": "LedgeClip",
+    "subs": [
+      [ "Adult" ]
+    ]
+  },
+  {
+    "name": "Magic",
+    "subs": [
+      [ "ZL", "Instrument", "Explosive", "DMT" ],
+      [ "ZL", "Instrument", "ISG", "DMT" ]
+    ]
+  },
+  {
+    "name": "ZD",
+    "subs": [
+      [ "ZL" ],
+      [ "Explosive" ],
+      [ "CuccoFly" ],
+      [ "LedgeClip", "LH", "Swim" ],
+      [ "LH", "Swim" ]
+    ]
+  },
+  {
+    "name": "BlueFire",
+    "subs": [
+      [ "cBlueFire" ],
+      [ "Bottle", "Rupee", "gWallet" ]
+
+    ]
+  },
+  {
+    "name": "cBlueFire",
+    "subs": [
+      [ "Bottle", "IC" ]
+    ]
+  },
+  {
+    "name": "brzGauntlet",
+    "subs": [
+      [ "gGauntlet", "RBAbug", "pCucco" ],
+      [ "gGauntlet", "RBAfish", "pCucco" ]
+    ]
+  },
+  {
+    "name": "grnGauntlet",
+    "subs": [
+      [ "gBracelet", "RBAbug", "pCucco" ],
+      [ "gBracelet", "RBAfish", "pCucco" ]
+    ]
+  },
+  {
+    "name": "Minuet",
+    "subs": [
+      [ "SFM", "Adult", "WARPsong" ]
+    ]
+  },
+  {
+    "name": "bForest",
+    "subs": [
+      [ "pGanon" ]
+    ]
+  },
+  {
+    "name": "pEgg",
+    "subs": [
+      [ "Adult", "Trade" ]
+    ]
+  },
+  {
+    "name": "fOcarina",
+    "subs": [
+      [ "LW" ]
+    ]
+  },
+  {
+    "name": "gBracelet",
+    "subs": [
+      [ "Saria", "GC", "ZL", "DMT" ],
+      [ "Saria", "GC", "ZL", "LW" ]
+    ]
+  },
+  {
+    "name": "BOTW",
+    "subs": [
+      [ "Swim", "cSwing" ]
+    ]
+  },
+  {
+    "name": "waterMedallion",
+    "subs": [
+      [ "bWater" ],
+      [ "RBAempty", "bKnife", "Adult" ],
+      [ "RBAblueFire", "bKnife", "Adult" ],
+      [ "RBAbug", "bKnife", "Adult" ]
+    ]
+  },
+  {
+    "name": "Bowling",
+    "subs": [
+      [ "bDC", "Rupee" ]
+    ]
+  },
+  {
+    "name": "pCucco",
+    "subs": [
+      [ "pEgg", "Cucco" ]
+    ]
+  },
+  {
+    "name": "2forestKey",
+    "subs": [
+      [ "FOREST", "aSwing", "Chest" ]
+    ]
+  },
+  {
+    "name": "GANON",
+    "subs": [
+      [ "Explosive" ],
+      [ "gDoorChild" ],
+      [ "bDeku", "WW", "Adult" ],
+      [ "LACS" ]
+    ]
+  },
+  {
+    "name": "fireMedallion",
+    "subs": [
+      [ "bFire" ]
+    ]
+  },
+  {
+    "name": "GF",
+    "subs": [
+      [ "Shot", "Adult" ],
+      [ "Bomb", "Adult" ],
+      [ "Explosive", "hBoots", "Adult" ],
+      [ "Epona", "Adult" ],
+      [ "CuccoFly", "kSword" ],
+      [ "Explosive", "dShield" ],
+      [ "WASTELAND" ]
+    ]
+  },
+  {
+    "name": "gohma",
+    "subs": [
+      [ "Nut", "cSwing" ],
+      [ "Nut", "aSwing" ],
+      [ "Sling", "cSwing" ],
+      [ "Arrow", "aSwing" ],
+      [ "Shot", "aSwing" ]
+    ]
+  },
+  {
+    "name": "Quiver",
+    "subs": [
+      [ "Quiver30" ],
+      [ "Quiver40" ],
+      [ "Quiver50" ]
+    ]
+  },
+  {
+    "name": "DMT",
+    "subs": [
+      [ "KAK" ],
+      [ "DMC" ],
+      [ "DC" ]
+    ]
+  },
+  {
+    "name": "COLOSSUSS",
+    "subs": [
+      [ "FWWW", "bDeku", "LW" ],
+      [ "FWWW", "bDC", "LW" ],
+      [ "WASTELAND" ]
+    ]
+  },
+  {
+    "name": "WASTELAND",
+    "subs": [
+      [ "COLOSSUSS" ],
+      [ "GF" ]
+    ]
+  },
+  {
+    "name": "Catchable+",
+    "subs": [
+      [ "BlueFire" ],
+      [ "Catchable" ],
+      [ "Fairy" ]
+    ]
+  },
+  {
+    "name": "Catchable",
+    "subs": [
+      [ "Fish" ],
+      [ "Bug" ]
+    ]
+  },
+  {
+    "name": "2spiritKey",
+    "subs": [
+      [ "hBoots", "ZL", "Adult" ],
+      [ "hBoots", "Explosive", "Adult" ],
+      [ "Stick" ]
+    ]
+  },
+  {
+    "name": "EponasSong",
+    "subs": [
+      [ "LLR", "Chicken" ]
+    ]
+  },
+  {
+    "name": "kd",
+    "subs": [
+      [ "Bomb", "cSwing" ],
+      [ "Bomb", "aSwing" ]
+    ]
+  },
+  {
+    "name": "forestMedallion",
+    "subs": [
+      [ "bForest" ],
+      [ "RBAfish", "bKnife", "Adult" ],
+      [ "RBAbug", "bKnife", "Adult" ]
+    ]
+  },
+  {
+    "name": "Claim",
+    "subs": [
+      [ "Eyedrop" ]
+    ]
+  },
+  {
+    "name": "pGanon",
+    "subs": [
+      [ "Shot", "aSwing", "Adult" ],
+      [ "Arrow", "aSwing", "Adult" ]
+    ]
+  },
+  {
+    "name": "shadowMedallion",
+    "subs": [
+      [ "bShadow" ],
+      [ "RBA", "bKnife", "Adult" ]
+    ]
+  },
+  {
+    "name": "IC",
+    "subs": [
+      [ "ZF", "Adult" ]
+    ]
+  },
+  {
+    "name": "oddMush",
+    "subs": [
+      [ "Cojiro", "Adult", "LW" ],
+      [ "GF", "Explosive", "Trade" ]
+    ]
+  },
+  {
+    "name": "spiritMedallion",
+    "subs": [
+      [ "bSpirit" ],
+      [ "RBAfairy", "Adult", "bKnife" ],
+      [ "RBAblueFire", "Adult", "bKnife" ],
+      [ "RBAbug", "Adult", "bKnife" ],
+      [ "RBAfish", "Adult", "bKnife" ]
+    ]
+  },
+  {
+    "name": "aSword",
+    "subs": [
+      [ "MS" ],
+      [ "BGS" ],
+      [ "knife" ]
+    ]
+  },
+  {
+    "name": "Poacher",
+    "subs": [
+      [ "oddPot", "LW", "Adult" ]
+    ]
+  },
+  {
+    "name": "1waterKey",
+    "subs": [
+      [ "WATER", "LedgeClip", "Swim", "Chu" ]
+    ]
+  },
+  {
+    "name": "RBAblueFire",
+    "subs": [
+      [ "BlueFire", "bottleB" ]
+    ]
+  },
+  {
+    "name": "gScale",
+    "subs": [
+      [ "Swim", "Rupee" ],
+      [ "RBAempty", "pCucco", "Adult" ]
+    ]
+  },
+  {
+    "name": "Cojiro",
+    "subs": [
+      [ "pCucco", "Adult", "Cucco" ],
+      [ "oddMush" ]
+    ]
+  },
+  {
+    "name": "sScale",
+    "subs": [
+      [ "ZD", "Rupee", "Swim" ]
+    ]
+  },
+  {
+    "name": "bKnife",
+    "subs": [
+      [ "Poacher", "GV", "Shot", "Adult" ],
+      [ "Poacher", "GV", "Explosive", "Adult" ],
+      [ "Poacher", "GV", "Epona", "Adult" ]
+    ]
+  },
+  {
+    "name": "bSpirit",
+    "subs": [
+      [ "rova" ]
+    ]
+  },
+  {
+    "name": "Eyedrop",
+    "subs": [
+      [ "eFrog", "ZD", "LH", "Adult" ]
+    ]
+  },
+  {
+    "name": "Quiver50",
+    "subs": [
+      [ "Epona", "bowSlot", "Rupee", "Epona", "GF", "GerudoCard", "Quiver40" ]
+    ]
+  },
+  {
+    "name": "Quiver40",
+    "subs": [
+      [ "Epona", "bowSlot", "Rupee", "Epona", "GF", "GerudoCard", "Quiver30" ],
+      [ "Rupee", "Quiver30", "Rupee" ]
+    ]
+  },
+  {
+    "name": "Quiver30",
+    "subs": [
+      [ "rBow" ],
+      [ "RBAfish", "Cojiro", "Adult" ]
+    ]
+  },
+  {
+    "name": "WW",
+    "subs": [
+      [ "OI" ]
+    ]
+  },
+  {
+    "name": "rova",
+    "subs": [
+      [ "mShield", "nKnuckle", "aSwing" ]
+    ]
+  },
+  {
+    "name": "eFrog",
+    "subs": [
+      [ "Prescription", "ZD", "LH", "Adult", "Trade" ]
+    ]
+  },
+  {
+    "name": "Prescription",
+    "subs": [
+      [ "bKnife", "Adult", "GV", "DMT" ]
+    ]
+  },
+  {
+    "name": "nKnuckle",
+    "subs": [
+      [ "aSwing", "Explosive" ]
+    ]
+  },
+  {
+    "name": "FOREST",
+    "subs": [
+      [ "SFM", "Shot", "Adult" ],
+      [ "SFM", "Explosive", "Adult" ],
+      [ "WW", "bFire", "Adult" ]
+    ]
+  },
+  {
+    "name": "Swim",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "WARPsong",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "LH",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "CollectCucco",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "LW",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "TOT",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "lightMedallion",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "GV",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "Cucco",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "KAK",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "MS",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "Nut",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "LLR",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "LedgeCancel",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "HP",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "Rupee",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "Trade",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "CuccoFly",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "Chest",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "HARD",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "Stick",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "30gs",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "10gs",
+    "subs": [ [ ] ]
+  },
+  {
+    "name": "GY",
+    "subs": [ [ ] ]
   }
 ]
